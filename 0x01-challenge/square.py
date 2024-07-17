@@ -1,11 +1,12 @@
 #!/usr/bin/python3
+"""Define a square class"""
+
 
 class square():
     """Square Class"""
     width = 0
     height = 0
 
-    
     def __init__(self, *args, **kwargs):
         """Initialize the square class"""
         for key, value in kwargs.items():
@@ -22,6 +23,7 @@ class square():
     def __str__(self):
         """string representation of the square"""
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
     """Create an instance of the square class"""
