@@ -1,4 +1,4 @@
-var React = require('react/addons');
+ivar React = require('react/addons');
 
 var Navbar = require('react-bootstrap').Navbar;
 var NavBrand = require('react-bootstrap').NavBrand;
@@ -13,7 +13,7 @@ var Header = React.createClass({
     render : function() {
         return (
             <Navbar>
-                <NavBrand>Link to={`/`}>React Blog</Link></NavBrand>
+                <NavBrand><Link to={`/`}>React Blog</Link></NavBrand>
             </Navbar>
             
         )
